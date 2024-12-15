@@ -10,7 +10,7 @@ body {
 	line-height: 1;
 	overflow: hidden;
 	user-select: none;
-	background: radial-gradient(at 50% 40%, #ffffff50, transparent), url("assets/background.png") repeat left top #000;
+	background: radial-gradient(circle at 50% 40%, #ffffff50, transparent), url("assets/background.png") repeat left top #000;
 }
 
 a {
