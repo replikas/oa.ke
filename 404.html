@@ -6,6 +6,13 @@
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/favicon.png">
     <style>
+        @font-face {
+            font-family: "Helvetica Neue";
+            src: local("Helvetica Neue"),
+                url("/assets/helvetica-neue.woff2") format("woff2");
+            font-display: swap;
+        }
+
         html,
         body {
             height: 100%;
@@ -29,7 +36,7 @@
         }
 
         .content {
-            background-image: url("assets/404.png");
+            background-image: url("/assets/404.png");
             background-repeat: no-repeat;
             background-size: 733px 400px;
             width: 733px;
